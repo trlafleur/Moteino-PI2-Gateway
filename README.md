@@ -8,7 +8,9 @@ This board will connect to a Raspberry PI2 (and maybe a B+) and provide an inter
 The board is approximately 2.1 x 2.75in, in size and has three basic options.
 
 1)	It will connect a Moteino via its serial port to the Raspberry PI2 serial port.
+
 2)	Or it will connect a Moteino Mega via its serial port to the Raspberry PI2 serial port.
+
 3)	Or it will connect a HopeRF, RFM69W(H) radio directly to the Raspberry PI2 SPI I/O lines.
 
 The Moteino’s serial port 0, is connected to the Raspberry PI2 internal serial port: /dev/ttyAMA0 on I/O pins: GPIO-14, TX pin 8 and GPIO-15, RX pin 10. 
@@ -24,12 +26,15 @@ This board also allows direct connection of a RFM69W(H) radio to the Raspberry P
 Some examples on how to use this option are given below.
 
 http://rdepablos.merlitec.com/mixed/rfm69-library-for-raspberry-pi
+
 https://github.com/etrombly/RFM69
+
 https://github.com/abouillot/HomeAutomation/tree/master/piGateway
 
 Full schematics and Gerber’s are available. Complete sets of Altium CAD file are available by request.
 
 There are 4 optional LED’s on the board that can be used by your software as needed. See schematic for connected pins to the Moteino’s. Also there is an option for a zero ohm resistor that will allow you to reset the Moteino’s via the PI.
+
 For the RFM69W(H) radio, all pins are connected via resistor of 0 to about 47 ohm (not critical) to provide some isolation from the PI’s SPI lines. These also provide a good test point for monitoring the I/O lines during development. Per the RFM69W(H)  data sheet, the board also provide a place for a 10uf or larger capacitor and a .1uf capacitor near the radio.
 
 All parts on the board are 0805 size components that are easy to solder.
