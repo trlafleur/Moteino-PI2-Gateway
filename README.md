@@ -42,6 +42,7 @@ All parts on the board are 0805 size components that are easy to solder.
 Errata:
 
 1) cathode end of LED's are marked wrong on silk-screen
+
 2) Warrning: On my Moteino's, prior to development of this board, I had cut the pin that supplys 3.3V from the FTDI connector. Not doing so, will cause the power from the FTDI and the PI2 to be in competition. I suggest you cut the pin or make an adapter removing the 3.3v pin.
 
 
