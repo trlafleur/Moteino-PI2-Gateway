@@ -1,0 +1,6 @@
+Moteino-PI2-Gateway
+
+Errata:
+
+1) 18May2015  TRL 
+Cathode end of LED's are marked wrong on silk-screen
