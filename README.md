@@ -39,5 +39,9 @@ For the RFM69W(H) radio, all pins are connected via resistor of 0 to about 47 oh
 
 All parts on the board are 0805 size components that are easy to solder.
 
+Errata:
+
+1) cathode end of LED's are marked wrong on silk-screen
+
 
 
