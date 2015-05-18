@@ -21,7 +21,7 @@ The group at: http://openenergymonitor.org/emon/ has developed a guide on how to
 
 http://wiki.openenergymonitor.org/index.php/RFM69Pi_V3
 
-This board also allows direct connection of a RFM69W(H) radio to the Raspberry PI via I/O pins. It provide for a uLF connector for an external antenna or a wire antenna. Connection to the PI are made via the PI’s SPI interface.
+This board also allows direct connection of a RFM69W(H) radio to the Raspberry PI via I/O pins. It provide a u.LF connector for an external antenna or a wire antenna. Connection to the PI are made via the PI’s SPI interface.
 
 Some examples on how to use this option are given below.
 
