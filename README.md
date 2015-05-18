@@ -31,7 +31,7 @@ https://github.com/etrombly/RFM69
 
 https://github.com/abouillot/HomeAutomation/tree/master/piGateway
 
-Full schematics and Gerber’s are available. Complete sets of Altium CAD file are available by request.
+Full schematics and Gerber’s are available here.
 
 There are 4 optional LED’s on the board that can be used by your software as needed. See schematic for connected pins to the Moteino’s. Also there is an option for a zero ohm resistor that will allow you to reset the Moteino’s via the PI.
 
